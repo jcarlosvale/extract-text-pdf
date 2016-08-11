@@ -1,0 +1,19 @@
+{
+  "name": "extract-text-pdf",
+  "version": "1.0.0",
+  "description": "A simple tool to extract text from pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "extract",
+    "pdf"
+  ],
+  "author": "manoel jose de freitas neto",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "pdf-to-text": "0.0.6"
+  }
+}

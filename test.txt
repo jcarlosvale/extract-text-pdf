@@ -1,0 +1,479 @@
+                 Conceitos e Projeto
+                                       SISTEMAS DISTRIBUÍDOS                                                         SISTEMAS DISTRIBUÍDOS
+     5ª Edição
+
+
+
+
+                                                                                                                                                                                                                                                      Blair
+                                                                                                                                                                                                                                                      Kindberg
+                                                                                                                                                                                                                                                      Dollimore
+                                                                                                                                                                                                                                                      Coulouris
+                                                                                                                                                                                                                                                                                                                                                  REDES E INTERNET / SISTEMAS OPERACIONAIS
+                                                                                                                     Conceitos e Projeto
+                                                                                                                      5ª Edição                                                                               George Coulouris
+                                                                                                                                                                                                               Jean Dollimore
+                                                                                                                                                                                                                                                                                                   SISTEMAS DISTRIBUÍDOS                          BROOKSHEAR, J.G.
+                                                                                                                                                                                                                                                                                                                                                  Ciência da Computação: Uma visão abrangente
+                                                                                                                                                                                                                 Tim Kindberg
+                                                                                                                                                                                                                  Gordon Blair
+                                                                                                                                                                                                                                                      5ª Edição                                    Conceitos e Projeto                            CARISSIMI, A.S.; ROCHOL, J.; GRANVILLE, L.Z.
+                                                                                                                                                                                                                                                                                                   5ª Edição                                      Redes de Computadores – Vol.20 (Série UFRGS)
+                                                                                                                    A Internet e a Web não param de crescer e têm impacto cada vez maior em diversos
+                                                                                                                    aspectos da nossa sociedade, inﬂuenciando áreas de aplicação tão diversas quanto                                                                                                                                              COULOURIS, G.; DOLLIMORE, J.; KINDBERG, T.; BLAIR, G.
+                                                                                                                                                                                                                                                                                                                         George Coulouris
+
+
+
+
+                                                                                                                                                                                                                                                     Conceitos e Projeto
+                                                                                                                                                                                                                                                                           SISTEMAS DISTRIBUÍDOS
+                                                                                                                    ﬁnanças, comércio, artes e entretenimento, e o surgimento da sociedade da informação                                                                                                                                          Sistemas Distribuídos, Conceitos e Projeto, 5e.d.
+                                                                                                                    de modo geral. Do ponto de vista do desenvolvimento de sistemas distribuídos, que
+                                                                                                                    interligam computadores e outros dispositivos, esse crescimento impõe novas demandas
+                                                                                                                                                                                                                                                                                                                          Jean Dollimore
+                                                                                                                    em termos de arquitetura, algoritmos, requisitos de projeto, variedade de aplicações e de                                                                                                               Tim Kindberg          EDELWEISS, N.; GALANTE, R.
+                                                                                                                                                                                                                                                                                                                                                  Estruturas de Dados – Vol.18 (Série UFRGS)
+                                                                                                                    cargas de trabalho. A 5ª edição deste best-seller continua a ser uma fonte de conhecimento
+                                                                                                                    abrangente sobre os princípios e a prática de sistemas distribuídos, com estudos de
+                                                                                                                                                                                                                                                                                                                             Gordon Blair
+                                                                                                                    caso modernos que ilustram seu projeto e desenvolvimento e exercícios ao ﬁnal de cada
+                                                                                                                                                                                                                                                                                                                                                  FOROUZAN, B.A.
+                                                                                                                    capítulo que ajudam a ﬁxar o conteúdo abordado.                                                                                                                                                                               Comunicação de Dados e Redes de Computadores, 4.ed.
+
+                                                                                                                    Destaques da 5ª edição:                                                                                                                                                                                                       FOROUZAN, B.A.; FEGAN, S.C.
+                                                                                                                    • Novos capítulos: comunicação indireta, objetos e componentes distribuídos e projeto de                                                                                                                                      Protocolo TCP/IP
+                                                                                                                      sistemas distribuídos
+                                                                                                                    • Novos tópicos: computação em nuvem, virtualização de rede e de sistemas operacionais,                                                                                                                                       GOODRICH, M.T.; TAMASSIA, R.
+                                                                                                                      sistemas peer-to-peer não estruturados, espaços de tupla, baixo acoplamento em serviços                                                                                                                                     Estruturas de Dados e Algoritmos em Java, 5.ed.
+                                                                                                                      Web e computação móvel e ubíqua
+                                                                                                                                                                                                                                                                                                                                                  Introdução à Segurança de Computadores
+                                                                                                                    • Novos estudos de caso: JavaSpaces, JMS, WebSphere, Messa Queues, Entreprise JavaBeans,
+                                                                                                                                                                                                                                                                                                                                                  Projeto de Algoritmos: Fundamentos, análise e exemplos da internet
+                                                                                                                      Skype, Gnutella, TOTA, L2imbo, BitTorrent, End System Multicast, infraestrutura Google.
+
+                                                                                                                    Neste livro, os estudantes de engenharia e de ciência da computação encontrarão                                                                                                                                               ROCHOL, J.
+                                                                                                                    os conhecimentos necessários para desenvolver projetos de sistemas de aplicações                                                                                                                                              Comunicação de Dados – Vol. 22 (Série UFRGS)
+                                                                                                                    distribuídas. Leitura valiosa também para engenheiros de software e projetistas de sistemas
+                                                                                                                    que queiram entender os novos e futuros desenvolvimentos nessa área.                                                                                                                                                          SOMASUNDARAM, G.; SHRIVASTAVA, A.; EMC EDUCATION SERVICES
+                                                                                                                                                                                                                                                                                                                                                  Armazenamento e Gerenciamento de Informações: Como
+                                                                                                                                                                                                                                                                                                                                                  armazenar, gerenciar e proteger informações digitais
+
+                                                                                                                      Para fazer download dos códigos-fonte, cadastre-se em nosso    Os professores interessados podem acessar conteúdo exclusivo
+                                                                                                                                                                                                                                                                                                                                                  STEVENS, W.R.
+                                                                                                                      site, www.grupoa.com.br, encontre e acesse a página do livro   (em inglês) em nosso site, www.grupoa.com.br. Cadastre-se                                                                                                    Programação de Rede UNIX: API para soquetes de rede, 3.ed.
+                                                                                                                      por meio do campo de busca e clique no link Conteúdo Online.   como professor, encontre e acesse a página do livro por meio
+                                                                                                                                                                                     do campo de busca e clique no link Material para o Professor.                                                                                                TENENBAUM, A.S.; WOODHULL, A.S.
+                                                                                                                                                                                                                                                                                                                                                  Sistemas Operacionais
+
+                                                                                                               REDES E INTERNET
+                                                               A Bookman Editora é parte do Grupo A, uma                                                                                                                                                                                                                                          TOSCANI, L.V.; VELOSO, P.A.S.
+                                                               empresa que engloba diversos selos edito-                                                                                                                                                                                                                                          Complexidade de Algoritmos, 3.ed. – Vol.13 (Série UFRGS)
+                                                               riais e várias plataformas de distribuição de
+                                                               conteúdo técnico, científico e profissional,
+                                                               disponibilizando-o como, onde e quando
+     www.grupoa.com.br                                         você precisar.
+                                                                                                               www.grupoa.com.br
+
+
+
+
+46223 Sistemas Distribuidos 5 ed.indd 1                                                                                                                                                                                                                                                                                                                                                                        15/07/2013 16:00:05
+
+
+                                                                                                                                                                                                                                                                                                                                     VS Gráfica     VS Gráfica             VS Gráfica            VS Gráfica
+                                                                                                                                                                                                                                                                                                                                     CYAN            MAG                    YEL                  BLACK
+George Coulouris é cientista visitante sênior do Laboratório de Computação da Cambridge University.
+
+Jean Dollimore foi, até sua aposentadoria, conferencista sênior sobre ciência da computação do
+Queen Mary College, University of London.
+
+Tim Kindberg foi pesquisador sênior do Hewllet-Packard Laboratories, em Bristol. É o fundador e
+atual diretor da matter 2 media.
+
+Gordon Blair é professor de sistemas distribuídos e chefe do Departamento de Computação da
+Lancaster University.
+
+
+
+
+              S623     Sistemas distribuídos [recurso eletrônico] : conceitos e projeto /
+                          George Coulouris ... [et al.] ; tradução: João Eduardo
+                          Nóbrega Tortello ; revisão técnica: Alexandre Carissimi. –
+                          5. ed. – Dados eletrônicos. – Porto Alegre : Bookman, 2013.
+
+                          Editado também como livro impresso em 2013.
+                          ISBN 978-85-8260-054-2
+
+                           1. Computação. 2. Sistemas distribuídos. 3. Redes.
+                       I. Coulouris, George.
+
+                                                                         CDU 004.652.3
+
+
+                  Catalogação na publicação: Ana Paula M. Magnus – CRB 10/2052
+Cambridge University         ex-professor do             matter 2 media        Lancaster University
+                           Queen Mary College,
+                           University of London
+
+
+
+
+                                         Tradução:
+                                João Eduardo Nóbrega Tortello
+
+                                        Revisão técnica:
+                                       Alexandre Carissimi
+          Doutor em Informática pelo Institut National Polytechnique de Grenoble, França
+                         Professor do Instituto de Informática da UFRGS
+
+
+
+
+                                         Versão impressa
+                                         desta obra: 2013
+
+
+
+
+                                                  2013
+                  Obra originalmente publicada sob o título
+                  Distributed Systems: Concepts and Design, 5th Edition
+                  ISBN 978-0-13-214301-1
+                  Authorized translation from the English language edition, entitled DISTRIBUTED SYSTEMS:
+                  CONCEPTS AND DESIGN, 5th Edition by GEORGE COULOURIS; JEAN DOLLIMORE; TIM
+                  KINDBERG; GORDON BLAIR, published by Pearson Education,Inc., publishing as Addison-Wesley,
+                  Copyright © 2012. All rights reserved. No part of this book may be reproduced or transmitted in any form
+                  or by any means, electronic or mechanical, including photocopying, recording or by any information
+                  storage retrieval system, without permission from Pearson Education,Inc.
+                  Portuguese language edition published by Bookman Companhia Editora Ltda, a company of Grupo A
+                  Educação S.A., Copyright © 2013.
+                  Tradução autorizada da edição de língua inglesa, intitulada DISTRIBUTED SYSTEMS: CONCEPTS
+                  AND DESIGN, 5th Edition, autoria de GEORGE COULOURIS; JEAN DOLLIMORE; TIM
+                  KINDBERG; GORDON BLAIR, publicado por Pearson Education, Inc., sob o selo Addison-Wesley,
+                  Copyright © 2012. Todos os direitos reservados. Este livro não poderá ser reproduzido nem em parte nem
+                  na íntegra, nem ter partes ou sua íntegra armazenado em qualquer meio, seja mecânico ou eletrônico,
+                  inclusive fotocópia, sem permissão da Pearson Education,Inc.
+                  A edição em língua portuguesa desta obra é publicada por Bookman Companhia Editora Ltda, uma
+                  empresa do Grupo A Educação S.A., Copyright © 2013.
+
+                  Gerente editorial: Arysinha Jacques Affonso
+                  Colaboraram nesta edição:
+                  Editora: Mariana Belloli
+                  Capa: VS Digital, arte sobre capa original
+                  Leitura final: Amanda Jansson Breitsameter
+                  Editoração: Techbooks
+
+
+
+
+                  Reservados todos os direitos de publicação, em língua portuguesa, à
+                  BOOKMAN EDITORA LTDA., uma empresa do GRUPO A EDUCAÇÃO S.A.
+                  Av. Jerônimo de Ornelas, 670 – Santana
+                  90040-340 – Porto Alegre – RS
+                  Fone: (51) 3027-7000 Fax: (51) 3027-7070
+                  É proibida a duplicação ou reprodução deste volume, no todo ou em parte, sob quaisquer formas
+                  ou por quaisquer meios (eletrônico, mecânico, gravação, fotocópia, distribuição na Web e outros),
+                  sem permissão expressa da Editora.
+                  Unidade São Paulo
+                  Av. Embaixador Macedo Soares, 10.735 – Pavilhão 5 – Cond. Espace Center
+                  Vila Anastácio – 05095-035 – São Paulo – SP
+                  Fone: (11) 3665-1100 Fax: (11) 3667-1333
+                  SAC 0800 703-3444 – www.grupoa.com.br
+                  IMPRESSO NO BRASIL
+                  PRINTED IN BRAZIL
+
+
+
+
+Coulouris_Iniciais.indd iv                                                                                                   23/05/13 09:14
+                                                                                                Prefácio
+                            Esta 5ª edição de nosso livro-texto aparece em um momento em que a Internet e a Web
+                            continuam a crescer e têm impacto em cada aspecto de nossa sociedade. Por exemplo, o
+                            capítulo introdutório registra a influência da Internet em áreas de aplicação tão diversi-
+                            ficadas como finanças e comércio, artes e entretenimento, e o surgimento da sociedade
+                            da informação de modo geral. Destaca também os requisitos bastante exigentes de do-
+                            mínios de aplicação, como pesquisa na Web e jogos online para vários participantes. Do
+                            ponto de vista dos sistemas distribuídos, esses desenvolvimentos estão impondo novas
+                            demandas significativas na infraestrutura de sistema subjacente, em termos de variedade
+                            de aplicações, cargas de trabalho e tamanho suportados por muitos sistemas modernos.
+                            Tendências importantes incluem a diversidade e a onipresença cada vez maiores de tec-
+                            nologias de interconexão em rede (incluindo a importância cada vez maior das redes sem
+                            fio), a integração inerente de elementos da computação móvel e ubíqua na infraestrutura
+                            dos sistemas distribuídos, levando a arquiteturas físicas radicalmente diferentes, à neces-
+                            sidade de suportar serviços multimídia e ao surgimento do paradigma da computação em
+                            nuvem que desafia nossa perspectiva de serviços de sistemas distribuídos.
+                                   O objetivo deste livro é fornecer um entendimento sobre os princípios nos quais
+                            são baseados a Internet e outros sistemas distribuídos, sobre sua arquitetura, algoritmos e
+                            projeto e sobre como atendem às exigências dos aplicativos distribuídos atuais. Começa-
+                            mos com um conjunto de sete capítulos que, juntos, abordam os elementos básicos para o
+                            estudo dos sistemas distribuídos. Os dois primeiros capítulos fornecem um panorama con-
+                            ceitual do tema, destacando as características dos sistemas distribuídos e os desafios que
+                            devem ser enfrentados em seu projeto: escalabilidade, heterogeneidade, segurança e trata-
+                            mento de falhas são os mais importantes. Esses capítulos também desenvolvem modelos
+                            abstratos para entender interação, falha e segurança de processos. Depois deles, existem
+                            outros capítulos básicos dedicados ao estudo de interconexão em rede, comunicação entre
+                            processos, invocação remota, comunicação indireta e suporte do sistema operacional.
+
+
+                              Novidades da 5ª edição
+                              Novos capítulos:
+                                 Comunicação indireta: comunicação de grupo, sistemas de publicar-assinar e estudos de caso
+                                   sobre JavaSpaces, JMS, WebSphere e Messa Queues.
+                                 Objetos e componentes distribuídos: middleware baseado em componentes e estudos de caso
+                                    sobre Enterprise JavaBeans, Fractal e CORBA.
+                                 Projeto de sistemas distribuídos: um novo estudo de caso sobre a infraestrutura Google.
+
+                              Novos tópicos: computação em nuvem, virtualização de rede, virtualização de sistema operacional,
+                              interface de passagem de mensagem, peer-to-peer não estruturado, espaços de tupla, acoplamento
+                              livre em relação a serviços Web.
+                              Novos estudos de caso: Skype, Gnutella, TOTA, L2imbo, BitTorrent, End System Multicast.
+                              Veja a tabela na página ix para mais detalhes das mudanças.
+
+
+
+
+Coulouris_Iniciais.indd v                                                                                                        23/05/13 09:14
+                  vi         Prefácio
+
+
+                                   O grupo de capítulos seguinte aborda o importante tópico do middleware, exami-
+                             nando diferentes estratégias para suportar aplicativos distribuídos, incluindo objetos e
+                             componentes distribuídos, Web services e soluções peer-to-peer alternativas. Aborda-
+                             mos, em seguida, os tópicos bem-estabelecidos de segurança, sistemas de arquivos distri-
+                             buídos e atribuição de nomes distribuída, antes de passarmos para os importantes aspec-
+                             tos relacionados a dados que incluem transações distribuídas e replicação. Os algoritmos
+                             associados a todos esses tópicos são abordados à medida que surgem, e também em
+                             capítulos separados, dedicados a temporização, coordenação e acordo.
+                                   O livro termina com os capítulos que tratam das áreas emergentes da computação
+                             móvel e ubíqua e dos sistemas multimídia distribuídos, antes de apresentar um estudo de
+                             caso enfocando o projeto e a implementação da infraestrutura de sistemas distribuídos
+                             que dão suporte ao Google em termos de funcionalidade de pesquisa básica e da cres-
+                             cente variedade de serviços adicionais oferecidos pelo Google (por exemplo, Gmail e
+                             Google Earth). O último capítulo tem um papel importante ao ilustrar como todos os con-
+                             ceitos de arquiteturas de sistemas, algoritmos e tecnologias apresentados neste livro po-
+                             dem ser reunidos em um projeto global coerente para determinado domínio de aplicação.
+
+                             Objetivos e público-alvo
+                             Este livro se destina a cursos de graduação e cursos introdutórios de pós-graduação. Ele
+                             pode ser igualmente usado de forma autodidata. Adotamos a estratégia top-down (de
+                             cima para baixo), tratando dos problemas a serem resolvidos no projeto de sistemas dis-
+                             tribuídos e descrevendo as estratégias bem-sucedidas na forma de modelos abstratos,
+                             algoritmos e estudos de caso detalhados sobre os sistemas mais utilizados. Abordamos
+                             a área com profundidade e amplitude suficientes para permitir aos leitores prosseguirem
+                             com seus estudos usando a maioria dos artigos de pesquisa presentes na literatura sobre
+                             sistemas distribuídos.
+                                   Nosso objetivo é tornar o assunto acessível a estudantes que tenham um conheci-
+                             mento básico de programação orientada a objetos, sistemas operacionais e arquitetura de
+                             computadores. O livro inclui uma abordagem dos aspectos de redes de computadores,
+                             relevantes aos sistemas distribuídos, inclusive as tecnologias subjacentes da Internet, das
+                             redes de longa distância, locais e sem fio. Ao longo de todo o livro são apresentados algo-
+                             ritmos e interfaces em Java ou, em alguns casos, em C ANSI. Por brevidade e clareza da
+                             apresentação, também é usada uma forma de pseudocódigo, derivado de Java/C.
+
+
+
+
+Coulouris_Iniciais.indd vi                                                                                                 23/05/13 09:14
+                                                                                                                   Prefácio     vii
+
+
+                                Base                                                     Algoritmos distribuídos
+                                  1   Caracterização de sistemas distribuídos              14 Tempo e estados globais
+                                  2   Modelos de sistema                                   15 Coordenação e acordo
+                                  3   Redes de computadores e interligação em rede
+                                  4   Comunicação entre processos
+                                  5   Invocação remota
+                                  6   Comunicação indireta
+                                  7   Sistema operacional
+
+
+                                Middleware                                        Dados compartilhados
+                                  8 Objetos e componentes distribuídos               16 Transações e controle de concorrência
+                                  9 Serviços Web                                     17 Transações distribuídas
+                                 10 Sistemas peer-to-peer                            18 Replicação
+
+
+
+                                Serviços de sistema                               Novos desaﬁos
+                                 11 Segurança                                        19 Computação móvel e ubíqua
+                                 12 Sistemas de arquivo distribuídos                 20 Sistemas multimídia distribuídos
+                                 13 Serviços de nomes
+
+
+                                                      Estudo de caso importante
+                                                       21 Projeto de sistemas distribuídos:
+                                                          estudo de caso do Google
+
+
+
+
+                              Organização do livro
+                              O diagrama mostra os capítulos sob sete áreas de assunto principais. Seu objetivo é for-
+                              necer um guia para a estrutura do livro e indicar as rotas de navegação recomendadas
+                              para os instrutores que queiram fornecer (ou leitores que queiram obter) um entendimen-
+                              to sobre as várias subáreas do projeto de sistemas distribuídos.
+
+                              Referências
+                              A existência da World Wide Web mudou a maneira pela qual um livro como este pode ser
+                              vinculado ao material de origem, incluindo artigos de pesquisa, especificações técnicas e
+                              padrões. Muitos dos documentos de origem agora estão disponíveis na Web; alguns estão
+                              disponíveis somente nela. Por motivos de brevidade e facilidade de leitura, empregamos
+                              uma forma especial de referência ao material da Web, que se assemelha um pouco a um
+                              URL: citações como [www.omg.org] e [www.rsasecurity.com I] se referem à documen-
+                              tação que está disponível somente na Web. Elas podem ser pesquisadas na lista de refe-
+                              rências ao final do livro, mas os URLs completos são dados apenas em uma versão online
+                              dessa lista, no site do livro www.cdk5.net/refs (em inglês), em que assumem a forma
+                              de links e podem ser acessados diretamente com um simples clique de mouse. As duas
+                              versões da lista de referências incluem uma explicação mais detalhada desse esquema.
+
+
+
+
+Coulouris_Iniciais.indd vii                                                                                                           23/05/13 09:14
+                   viii        Prefácio
+
+
+                               Alterações relativas à 4ª edição
+                               Antes de começarmos a escrever esta nova edição, fizemos um levantamento junto aos
+                               professores que utilizavam a 4ª edição. A partir dos resultados, identificamos o novo
+                               material exigido e as várias alterações a serem feitas. Além disso, reconhecemos a diver-
+                               sidade cada vez maior de sistemas distribuídos, particularmente em termos da variedade
+                               de estratégias de arquiteturas de sistemas disponíveis atualmente para desenvolvedores
+                               de sistemas distribuídos. Isso exigiu alterações significativas no livro, especialmente nos
+                               capítulos iniciais (básicos).
+                                     Isso nos levou a escrever três capítulos totalmente novos, a fazer alterações signifi-
+                               cativas em vários outros capítulos e a realizar numerosas inserções por todo o livro para
+                               acrescentar material novo. Muitos dos capítulos foram alterados para refletir as novas
+                               informações que se tornaram disponíveis sobre os sistemas descritos. Essas alterações es-
+                               tão resumidas na tabela da página ix. Para ajudar os professores que usaram a 4ª edição,
+                               quando possível preservamos a estrutura adotada na edição anterior.
+                                     O material removido está disponível no site do livro (em inglês), junto ao material
+                               removido das edições anteriores. Isso inclui os estudos de caso sobre ATM, comunicação
+                               entre processos em UNIX, CORBA (uma versão reduzida desse estudo de caso permane-
+                               ce no Capítulo 8), a especificação de eventos distribuídos Jini, o capítulo sobre memória
+                               compartilhada distribuída e o estudo de caso do middleware Grid (apresentando OGSA
+                               e o toolkit Globus). Alguns capítulos do livro abrangem muito material; por exemplo, o
+                               novo capítulo sobre comunicação indireta (Capítulo 6). Os professores podem optar por
+                               abordar o amplo espectro, antes de escolherem duas ou três técnicas para examinar com
+                               mais detalhes (por exemplo, a comunicação em grupo, em razão de seu predomínio nos
+                               sistemas distribuídos comerciais).
+                                     A ordem dos capítulos foi alterada para acomodar o novo material e refletir a mu-
+                               dança na importância relativa de alguns tópicos. Para uma maior compreensão de alguns
+                               tópicos, talvez os leitores considerem necessário buscar outras referências. Por exemplo,
+                               há material no Capítulo 9, sobre técnicas de segurança em XML, que farão mais sentido
+                               depois que as seções do Capítulo 11, “Segurança”, às quais faz referência, forem lidas.
+
+                               Agradecimentos
+                               Somos muito gratos aos seguintes professores que participaram de nosso levantamento:
+                               Guohong Cao, Jose Fortes, Bahram Khalili, George Blank, Jinsong Ouyang, JoAnne
+                               Holliday, George K, Thiruvathukal, Joel Wein, Tao Xie e Xiaobo Zhou.
+                                     Gostaríamos de agradecer às seguintes pessoas que revisaram os capítulos novos ou
+                               ajudaram substancialmente: Rob Allen, Roberto Baldoni, John Bates, Tom Berson, Lyn-
+                               ne Blair, Geoff Coulson, Paul Grace, Andrew Herbert, David Hutchison, Laurent Mathy,
+                               Rajiv Ramdhany, Richard Sharp, Jean-Bernard Stefani, Rip Sohan, Francois Taiani, Peter
+                               Triantafillou, Gareth Tyson e Sir Maurice Wilkes. Também gostaríamos de agradecer ao
+                               pessoal do Google que deu ideias sobre o fundamento lógico da Google Infrastructure,
+                               especialmente Mike Burrows, Tushar Chandra, Walfredo Cirne, Jeff Dean, Sanjay Ghe-
+                               mawat, Andrea Kirmse e John Reumann.
+
+
+
+
+Coulouris_Iniciais.indd viii                                                                                                  23/05/13 09:14
+                                                                                                                                Prefácio         ix
+
+
+                             Capítulos novos:
+                              6 Comunicação indireta                      Inclui eventos e notificação da 4ª edição
+                              8 Objetos e componentes distribuídos        Inclui versão resumida do estudo de caso CORBA da 4ª edição
+                             21 Projeto de sistemas distribuídos          Inclui um novo estudo de caso sobre o Google
+                             Capítulos que passaram por alterações significativas:
+                              1 Caracterização de sistemas distribuídos   Reestruturação de material
+                                                                          Nova Seção 1.2: Exemplos de sistemas disttribuídos
+                                                                          Seção 1.2.2: Introdução da computação em nuvem MMOGs
+                              2 Modelos de sistema                        Reestruturação de material
+                                                                          Nova Seção 2.2: Modelos físicos
+                                                                          Seção 2.3: reescrita significativa para refletir novo conteúdo do livro e
+                                                                          perspectivas de arquiteturas de sistema associadas
+                              4 Comunicação entre processos               Várias atualizações
+                                                                          Comunicação cliente-servidor movida para o Capítulo 5
+                                                                          Nova Seção 4.5: Virtualização de rede (inclui estudo de caso sobre
+                                                                          Skype)
+                                                                          Nova Seção 4.6: Estudo de caso sobre MPI
+                                                                          Estudo de caso sobre IPC no UNIX removido
+                              5 Invocação remota                          Reestruturação de material
+                                                                          Comunicação cliente-servidor movida para este capítulo
+                                                                          Progressão de comunicação cliente-servidor por meio de RPC para RMI
+                                                                          introduzida
+                                                                          Eventos e notificação movidos para o Capítulo 6
+                             Capítulos nos quais novo material foi adicionado/removido, mas sem alterações estruturais:
+                              3 Redes de computadores e interligação      Várias atualizações
+                                em rede                                   Seção 3.5: material sobre ATM removido
+                              7 Sistemas operacionais                     Nova Seção 7.7: Virtualização em nível de sistema operacional
+                              9 Serviços Web                              Seção 9.2: adicionada discussão sobre acoplamento livre
+                             10 Sistemas peer-to-peer                     Nova Seção 10.5.3: peer-to-peer não estruturado
+                             15 Coordenação e acordo                      Material sobre comunicação em grupo movido para o Capítulo 6
+                             18 Replicação                                Material sobre comunicação em grupo movido para o Capítulo 6
+                                                                                                                                      2
+                             19 Móvel seção                               Seção 19.3.1: novo material sobre espaços de tupla (TOTA e L imbo)
+                             20 Sistemas multimídia distribuídos          Seção 20.6: novos estudos de caso sobre BitTorrent e End System
+                                                                          Multicast
+
+
+
+
+Coulouris_Iniciais.indd ix                                                                                                                            23/05/13 09:14
+                  x         Prefácio
+
+
+                             Site
+                             Acesse o material complementar (em inglês) do livro no site do Grupo A:
+                                    • Entre no site do Grupo A, em www.grupoa.com.br.
+                                    • Clique em “Acesse ou crie a sua conta”.
+                                    • Se você já tem cadastro em nosso site, insira seu endereço de e-mail ou CPF e
+                                      sua senha na área “Acesse sua conta”; se ainda não é cadastrado, cadastre-se
+                                      preenchendo o campo da área “Crie sua conta”.
+                                    • Depois de acessar a sua conta, digite o título do livro ou o nome do autor no
+                                      campo de busca do site e clique no botão “Buscar”.
+                                    • Localize o livro entre as opções oferecidas e clique sobre a imagem de capa ou
+                                      sobre o título para acessar a página do livro.
+                                    Na página do livro:
+                                    • Para fazer download dos códigos-fonte dos Capítulos 4, 5, 8, 9 e 11, clique no
+                                      link “Conteúdo online”.
+                                    • Para fazer download de apresentações em PowerPoint para uso em sala de aula,
+                                      apresentações em PowerPoint para os exercícios e soluções dos exercícios (todos
+                                      em inglês), clique no link “Material para o Professor”. Atenção: este conteúdo é
+                                      de acesso restrito a usuários com cadastro de “Professor”.
+                             Os autores do livro também mantêm um site (em inglês) com uma ampla variedade
+                             de material destinado a ajudar professores e leitores. Esse site pode ser acessado em:
+                             www.cdk5.net
+                             Guia do instrutor: dicas de ensino capítulo a capítulo, sugestões de projetos de laboratório
+                             e muito mais.
+                             Lista de referências: a lista de referências que pode ser encontrada no final do livro está
+                             reproduzida no site. A versão Web da lista de referências inclui links para o material que
+                             está disponível online.
+                             Lista de errata: uma lista dos erros conhecidos no livro, com suas correções. Tais erros
+                             serão corrigidos nas novas impressões e uma lista de errata separada será fornecida para
+                             cada impressão.*
+                             Material suplementar: o código-fonte dos programas presentes no livro e o material de
+                             leitura relevante que foi apresentado nas edições anteriores do livro, mas removido por
+                             razões de espaço. As referências a esse material suplementar aparecem no livro com links
+                             como www.cdk5.net/ipc (o URL para material suplementar relacionado com comunica-
+                             ção entre processos).
+
+
+                                                                                                                     George Coulouris
+                                                                                                                       Jean Dollimore
+                                                                                                                         Tim Kindberg
+                                                                                                                         Gordon Blair
+                                                                                                                  <authors@cdk5.net>
+
+
+                             * A errata disponível no site da edição em língua inglesa já está corrigida nesta edição brasileira.
+
+
+
+
+Coulouris_Iniciais.indd x                                                                                                               23/05/13 09:14
+
